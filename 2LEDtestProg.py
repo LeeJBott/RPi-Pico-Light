@@ -1,7 +1,7 @@
 from machine import Pin as GPIO #Machine is Pico
 from time import sleep
-botLED = GPIO(15,GPIO.OUT)
-topLED = GPIO("LED",GPIO.OUT)
+botLED = GPIO(15,GPIO.OUT) # define LED to PIN
+topLED = GPIO("LED",GPIO.OUT) #Define LED to PIN
 
 try:
     while True:
